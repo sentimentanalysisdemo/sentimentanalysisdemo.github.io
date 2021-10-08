@@ -1,9 +1,19 @@
-<html>
-<p>Write a statement or a few words that tells us how you feel about <b>Luke</b>.</p>
-<form action="https://us-central1-cit-37400-elliott-dev.cloudfunctions.net/python-sentiment-test" method="get">
-<textarea name="user_input" cols="40" rows="5"></textarea>
-<input type="hidden" value="luke" name="convo_type" />
-<br />
-<button type="submit">Submit</button>
-</form>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  </head>
+  <body>
+    <p>Write a statement or a few words that tells us how you feel about <b>Luke</b>.</p>
+    <form action="https://us-central1-cit-37400-elliott-dev.cloudfunctions.net/python-sentiment-test" method="get">
+    <textarea name="user_input" cols="40" rows="5"></textarea>
+    <input type="hidden" value="luke" name="convo_type" />
+    <br />
+    <button type="submit">Submit</button>
+    </form>
+  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </html>
